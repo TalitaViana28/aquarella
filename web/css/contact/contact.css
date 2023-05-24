@@ -1,0 +1,83 @@
+.contact-form {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+#nome,
+#email,
+#mensagem,
+#telefone {
+  display: block;
+  margin-bottom: 32px;
+}
+
+#contact-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.contact-form textarea {
+  grid-column: 1;
+}
+
+.contact-form input[type="telefone"] {
+  grid-column: 2;
+}
+
+.contact-form .button {
+  margin-left: 0px;
+  margin-top: 20px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+  background: var(--cor-p1);
+  border: 1px solid var(--cor-p3);
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--cor-p5);
+  background: var(--cor-0);
+  box-shadow: 0 0 0 2px var(--cor-p5);
+}
+
+@media (max-width: 800px) {
+  .contact-form {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  #contact-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #contact-2 #mensagem {
+    margin-bottom: 0px;
+  }
+  .contact-form .button {
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

@@ -1,0 +1,27 @@
+.font-1 {
+  font: 400 0.875rem/1.25 "Noto Sans", sans-serif;
+}
+
+.font-2 {
+  font: 400 1rem/1.5 "Noto Sans", sans-serif;
+}
+
+.font-3 {
+  font: 500 1rem/1.5 "Zilla Slab", sans-serif;
+}
+
+.font-4 {
+  font: 600 1.125rem/1.5 "Noto Sans", sans-serif;
+}
+
+.font-5 {
+  font: 600 1.25rem/1.75 "Noto Sans", sans-serif;
+}
+
+.font-6 {
+  font: 400 1.5rem/2 "Zilla Slab", sans-serif;
+}
+
+.font-7 {
+  font: 400 2.25rem/2 "Zilla Slab", sans-serif;
+}

@@ -1,0 +1,56 @@
+.introduction-bg {
+  background-color: var(--cor-p3);
+  flex-wrap: wrap;
+}
+
+.introduction-menu {
+  display: flex;
+  gap: 80px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.introduction-menu a {
+  display: inline-block;
+  padding: 16px 0px;
+  color: var(--cor-0);
+  position: relative;
+}
+
+.introduction-menu a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background-color: var(--cor-0);
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.introduction-menu a:hover::after,
+.introduction-menu a.ativo::after {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .introduction-menu {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .introduction-bg .introduction-menu {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .introduction-menu {
+    display: block;
+  }
+}

@@ -1,0 +1,24 @@
+@import "./utilidades/color.css";
+@import "./utilidades/typography.css";
+@import "./utilidades/component.css";
+
+/*Global*/
+@import "./global/global.css";
+@import "./global/header.css";
+
+/*Home*/
+@import "./home/introduction.css";
+@import "./home/products.css";
+@import "./home/footer.css";
+
+/*About*/
+@import "./about/about.css";
+
+/*Products-general*/
+@import "./products-general/products-general.css";
+
+/*Contact*/
+@import "./contact/contact.css";
+
+/*Information*/
+@import "./additional-information/information.css";
