@@ -15,10 +15,10 @@
 @import "./about/about.css";
 
 /*Products-general*/
-@import "./products-general/general.css";
+@import "./general/general.css";
 
 /*Contact*/
 @import "./contact/contact.css";
 
 /*Information*/
-@import "./additional-information/information.css";
+@import "./information/information.css";
