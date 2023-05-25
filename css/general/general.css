@@ -1,16 +1,16 @@
-.produtcs-gerenal-bg {
-  padding-left: 120px;
-}
-
 .produtcs-gerenal-1 {
   margin-top: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-bottom: 80px;
+  text-align: center;
 }
 
 .produtcs-gerenal-1 img {
   margin-bottom: 8px;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
 }
 
 .produtcs-gerenal-1 p {
@@ -29,7 +29,28 @@
   .produtcs-gerenal-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 60px;
+    text-align: center;
+  }
+  .produtcs-gerenal-1 img {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+  }
+  .produtcs-gerenal-1 .button {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .produtcs-gerenal-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .produtcs-gerenal-1 img {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
   }
   .produtcs-gerenal-1 .button {
     margin-bottom: 60px;
