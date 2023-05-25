@@ -40,10 +40,20 @@
 @media (max-width: 600px) {
   .about-content {
     display: block;
-    margin-left: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .about-first img {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
   .about-second {
-    margin-left: -60px;
+    margin-left: 0px;
     margin-right: 0px;
   }
   .about-second p {
@@ -52,19 +62,10 @@
     padding-top: 32px;
   }
   .about-second img {
-    display: block;
-    padding-left: 150px;
-  }
-}
-
-@media (max-width: 400px) {
-  .about-content .about-first {
-    margin-right: 40px;
-  }
-  .about-content .about-second {
-    padding-left: 20px;
-  }
-  .about-second img {
-    padding-left: 25px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -4px;
   }
 }
